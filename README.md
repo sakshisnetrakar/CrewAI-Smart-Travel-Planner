@@ -5,7 +5,6 @@ A local-only multi-agent travel-planning prototype using CrewAI. It defines five
 ## Local setup
 
 ```cmd
-cd "C:\Users\Sakshi S Netrakar\Desktop\CrewAI Smart Travel Planner"
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -22,8 +21,6 @@ Install Ollama, then run:
 ollama pull llama3.2
 ollama serve
 ```
-
-Copy `.env.example` to `.env` if you need different Ollama settings. With CrewAI and Ollama available, the app runs the five-agent sequential workflow. Otherwise, it provides a fully local mock fallback so the interface remains usable.
 
 ## External services
 
